@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Atlas - Your AI Travel Companion</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">Infinity Atlas</h1>
+        <p class="fade-in">Discover the world's hidden gems, tailored just for you.</p>
+    </header>
+    
+    <section class="travel-mood fade-in">
+        <h2>What's Your Travel Mood?</h2>
+        <div class="mood-options">
+            <button onclick="getRecommendations('adventure')">Adventure</button>
+            <button onclick="getRecommendations('relaxation')">Relaxation</button>
+            <button onclick="getRecommendations('food')">Food & Drink</button>
+            <button onclick="getRecommendations('culture')">Culture & History</button>
+        </div>
+        <div class="surprise-option">
+            <button onclick="surpriseMe()">Surprise Me!</button>
+        </div>
+    </section>
+    
+    <section id="recommendations" class="fade-in">
+        <h2>AI-Powered Travel Suggestions</h2>
+        <p>Select a mood to generate recommendations.</p>
+        <ul id="results-list"></ul>
+    </section>
+    
+    <section id="image-display" class="fade-in">
+        <h2>Destination Preview</h2>
+        <img id="destination-image" src="" alt="Travel Destination" style="width:100%; max-width:600px; display:none;">
+    </section>
+    
+    <footer class="fade-in">
+        <p>Powered by AI | Explore More | 2025</p>
+    </footer>
+</body>
+</html>

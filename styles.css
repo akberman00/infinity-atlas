@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #0033A0, #001F5B);
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 51, 160, 0.9);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.travel-mood {
+    margin: 40px 0;
+}
+
+.mood-options button {
+    background: #FFC600;
+    color: #0033A0;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.mood-options button:hover {
+    background: #FFD700;
+}
+
+#recommendations {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+#results-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#results-list li {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0, 51, 160, 0.9);
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
